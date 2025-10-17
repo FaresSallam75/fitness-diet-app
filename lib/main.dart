@@ -17,7 +17,6 @@ import 'package:ordering_app/presentation/screens/chat/local_notification.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:developer';
 
-// ew1-OAafTx-D2vfHnDwTGn:APA91bFfaLO3IyuAXZLfCsoSEGJyPv3Arq7lfpU6biWbjWhf4mUf0QsWQKcT3SjVshOIuWBIyCV3VeDI134ubFt_xOQQyM0EV73QXHBa6wAM3KPp96_Mdtw
 
 Box? myBox;
 Future<Box> initBoxHive(String boxName) async {
@@ -58,11 +57,9 @@ void main() async {
   if (!myBox!.containsKey("isDark")) {
     myBox!.put("isDark", false); // Default to light theme
   }
-
   StripeSetup.setup(
     publishableKey:
-        "pk_test_51S1mmXRpR96vcwXxGDaV67dM7zqoVWl4Ovm9viMR8pbiDRVOna5MEMZp0wDP4vLqQcUeuS7OJm2CJj2M5elCyzGH00AEQNKzsN",
-    //"z9pQwYsTS5G7Hn6IHW-FFGQBQakxIAf1iQNL3wBe7ckJTl5b4HBy77X-ZoqiQ-H8",
+    String.fromEnvironment('STRIPE_SECRET_KEY'),
   );
 
   runApp(const MyApp());

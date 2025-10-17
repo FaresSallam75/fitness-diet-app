@@ -11,7 +11,7 @@ class StripePayment extends StatelessWidget {
 
   Future<void> payWithStripe() async {
     var token =
-        "sk_test_51S1mmXRpR96vcwXxK3gfGqnDlMvlaPxSdik3mDZ2spMRGEBUPZxBAHv0TWrIoKeZrr3sFM1m24oXf7HT2NEt8yog00zg0cOzZ8";
+    String.fromEnvironment('STRIPE_TOKEN');
     final SetupStripePayment intent = SetupStripePayment(token: token);
     await StripeService.instance.pay(setupPayment: intent);
   }
@@ -22,7 +22,7 @@ class StripePayment extends StatelessWidget {
       frameId: "923378", //839579
       integrationId: int.parse("5095409"),
       apiKey:
-          "ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2TVRBME5qRXpNU3dpYm1GdFpTSTZJbWx1YVhScFlXd2lmUS5VcThrOFRZWnNVTF8xT2pud3ltLXJIcXZvUV84MzBWUHlIUWhxSVpFQXhVZ1JMTlRvdDYwVFNncmRXQTJmeGZuVXdqN212M2JKRHVpN3BzN3BiNWpHdw==",
+      String.fromEnvironment('PAYMOB_APIKEY'),
     );
     await PaymobPaymentService.instance.pay(setupPayment: setupPayment);
   }
@@ -31,7 +31,7 @@ class StripePayment extends StatelessWidget {
     final paypalModel = SetupePaypalPayment(
       context: context,
       clientId: "PAYPAL_CLIENT_ID",
-      secretKey: "E%GezcmK9Wm)U@zINmmM*cA^KHw-QrK71kixwT6q",
+      secretKey: String.fromEnvironment('PAYPAL_SECRET_KEY'),
     );
     await PaypalService.instance.pay(setupPayment: paypalModel);
   }
