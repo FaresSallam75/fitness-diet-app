@@ -29,7 +29,12 @@ jobs:
         run: flutter test
 
       - name: Build release APK
-        run: flutter build apk --release --dart-define=STRIPE_SECRET_KEY=${{ secrets.STRIPE_SECRET_KEY }}
+        run: |
+          flutter build apk --release \
+            --dart-define=STRIPE_SECRET_KEY=${{ secrets.STRIPE_SECRET_KEY }} \
+            --dart-define=STRIPE_TOKEN=${{ secrets.STRIPE_TOKEN }} \
+            --dart-define=PAYPAL_SECRET_KEY=${{ secrets.PAYPAL_SECRET_KEY }} \
+            --dart-define=PAYMOB_APIKEY=${{ secrets.PAYMOB_APIKEY }}
 
       #      - name: Build release APK
 #        run: flutter build apk --release
