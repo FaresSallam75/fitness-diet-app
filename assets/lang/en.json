@@ -1,0 +1,15 @@
+{
+    "welcome": "Welcome",
+    "language": "Language",
+    "change_language": "Language",
+    "dark_mode": "Dark Mode",
+    "monthly_renewal": "Monthly Renewal",
+    "offer": "Offer",
+    "home_title": "Home",
+    "settings": "Settings",
+    "location_permission": "Location permission is required",
+    "location_denied": "Location permission denied",
+    "location_denied_forever": "Location permission permanently denied",
+    "ok": "OK",
+    "logout": "logout"
+}

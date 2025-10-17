@@ -1,0 +1,15 @@
+{
+    "welcome": "مرحبًا",
+    "language": "اللغة",
+    "change_language": "اللغة",
+    "dark_mode": "الوضع الليلي",
+    "monthly_renewal": "التجديد الشهري",
+    "offer": "العروض",
+    "home_title": "الرئيسية",
+    "settings": "الإعدادات",
+    "location_permission": "يتطلب الإذن بالموقع",
+    "location_denied": "تم رفض إذن الموقع",
+    "location_denied_forever": "تم رفض إذن الموقع نهائيًا",
+    "ok": "حسنًا",
+    "logout": "تسجيل الخروج"
+}
