@@ -4,6 +4,18 @@ This documentation provides a comprehensive overview of the main features, archi
 
 ---
 
+
+
+
+  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="assets/screenshots/Screenshot_1760543660.png" width="200" alt="Welcome Page">
+  <img src="assets/screenshots/Screenshot_1760570466.png" width="200" alt="Login Page">
+  <img src="assets/screenshots/Screenshot_1760570468.png" width="200" alt="Signup Page">
+
+</div>
+
+
+
 ## `firebase_options.dart`
 
 This file contains the platform-specific Firebase configuration for initializing the app with Firebase services. It uses the `FirebaseOptions` class to specify credentials for different platforms (web, Android, iOS, macOS, Windows).
