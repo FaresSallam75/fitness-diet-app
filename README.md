@@ -11,6 +11,30 @@ This documentation provides a comprehensive overview of the main features, archi
   <img src="assets/screenshots/Screenshot_1760543660.png" width="200" alt="Welcome Page">
   <img src="assets/screenshots/Screenshot_1760570466.png" width="200" alt="Login Page">
   <img src="assets/screenshots/Screenshot_1760570468.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570486.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570490.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570504.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570507.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570514.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570542.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570545.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570548.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760570596.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760571831.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760571840.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760571846.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760572056.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760572300.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760572303.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760572310.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760572315.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760575283.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760575289.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760576213.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760576216.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760576219.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760576222.png" width="200" alt="Signup Page">
+  <img src="assets/screenshots/Screenshot_1760576224.png" width="200" alt="Signup Page">
 
 </div>
 
